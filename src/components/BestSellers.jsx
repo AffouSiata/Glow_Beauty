@@ -6,7 +6,7 @@ function BestSellers() {
   const bestSellers = products.filter((product) => product.isBestSeller)
 
   return (
-    <div className='w-full py-12'>
+    <div className='w-full py-12 bg-[#fffaf8]'>
       <div className='mt-4  text-center py-6 '>
         <h2 className='text-3xl font-bold text-[#3b0133]'>Best Sellers</h2>
         <p className='text-gray-500 mt-2'>Discover our customers' favorite beauty products.</p>

@@ -6,10 +6,10 @@ function ProductCard({ product }) {
 
   return (
     <div className=' relative w-56 rounded-xl shadow-lg overflow-hidden bg-[#3b01330a] hover:scale-105 transition duration-300 cursor-pointer'>
-      <img src={product.image} alt={product.name} className='mt-5 w-full h-32 object-contain' />
-      <div className='absolute top-2 right-2'>
-        <Heart size={20} fill="white" color="#fb85ea" />
-      </div>
+        <img src={product.image} alt={product.name} className='mt-5 w-full h-32 object-contain' />
+        <div className='absolute top-2 right-2'>
+            <Heart size={20} fill="white" color="#fb85ea" />
+        </div>
       <div className='p-4'>
         <h3 className='text-lg text-center font-semibold text-[#3b0133]'>{product.name}</h3>
         <div className='flex justify-between items-center'>
