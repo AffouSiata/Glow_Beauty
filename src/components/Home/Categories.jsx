@@ -1,8 +1,8 @@
 import React from 'react'
-import skincare from '../assets/skincare.jpeg'
-import makeup from '../assets/makeup.jpeg'
-import haircare from '../assets/haircare.jpeg'
-import fragrance from '../assets/fragance.jpeg'
+import skincare from '../../assets/skincare.jpeg'
+import makeup from '../..//assets/makeup.jpeg'
+import haircare from '../../assets/haircare.jpeg'
+import fragrance from '../..//assets/fragance.jpeg'
 
 function Categories() {
   const categories = [

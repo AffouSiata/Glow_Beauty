@@ -1,10 +1,13 @@
 import React from 'react'
-import Header from '../components/Header'
-import Hero from '../components/Hero'
-import Categories from '../components/Categories'
-import BestSellers from '../components/BestSellers'
-import Whychoose from '../components/Whychoose'
-import SpecialOffer from '../components/SpecialOffer'
+import Header from '../components/Home/Header'
+import Hero from '../components/Home/Hero'
+import Categories from '../components/Home/Categories'
+import BestSellers from '../components/Home/BestSellers'
+import Whychoose from '../components/Home/Whychoose'
+import SpecialOffer from '../components/Home/SpecialOffer'
+import Testimonials from '../components/Home/Testimonials'
+import Newsletters from '../components/Home/Newsletter'
+import Footer from '../components/Footer'
 
 
 function Home() {
@@ -16,6 +19,9 @@ function Home() {
       <BestSellers />
       <Whychoose />
       <SpecialOffer />
+      <Testimonials />
+      <Newsletters />
+      <Footer />
     </>
   )
 }
