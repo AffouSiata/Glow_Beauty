@@ -15,10 +15,10 @@ function Header() {
                 </div>
                 <nav >
                     <ul className='flex gap-9 text-[#3b0133]'>
-                        <li><a href="#" className={`${hoverstyle} text-[#fb85ea]`}>Home</a></li>
-                        <li><a href="#" className={hoverstyle}>Products</a></li>
-                        <li><a href="#" className={hoverstyle}>About</a></li>
-                        <li><a href="#" className={hoverstyle}>Contact</a></li>
+                        <li><a href="/Home" className={`${hoverstyle} text-[#fb85ea]`}>Home</a></li>
+                        <li><a href="/Shop" className={hoverstyle}>Shop</a></li>
+                        <li><a href="/About" className={hoverstyle}>About</a></li>
+                        <li><a href="/Contact" className={hoverstyle}>Contact</a></li>
                     </ul>
                 </nav>
                 <div className='flex gap-4   text-[#3b0133]'>

@@ -49,6 +49,51 @@ const products = [
     image: perfume,
     isBestSeller: true,
   },
+  {
+    id: 6,
+    name: "Rose Perfume",
+    category: "Fragrance",
+    price: 45000,
+    rating: 7,
+    image: perfume,
+    isBestSeller: true,
+  },
+  {
+    id: 7,
+    name: "Rose Perfume",
+    category: "Fragrance",
+    price: 55000,
+    rating: 8,
+    image: perfume,
+    isBestSeller: true,
+  },
+  {
+    id: 8,
+    name: "Rose Perfume",
+    category: "Fragrance",
+    price: 65000,
+    rating: 9,
+    image: perfume,
+    isBestSeller: true, 
+  },
+  {
+    id: 9,
+    name: "Rose Perfume",
+    category: "Fragrance",
+    price: 75000,
+    rating: 10,
+    image: perfume,
+    isBestSeller: true, 
+  },
+  {
+    id: 10,
+    name: "Rose Perfume",
+    category: "Fragrance",
+    price: 85000,
+    rating: 11,
+    image: perfume,
+    isBestSeller: true, 
+  }
 ];
 
 export default products;

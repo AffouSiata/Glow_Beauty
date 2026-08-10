@@ -1,12 +1,11 @@
 import React from 'react'
-import Home from './pages/Home'
+import Detail from './pages/Detail'
 
-Home
 
 function App() {
   return (
     <>
-      <Home />
+      <Detail />
     </>
    
    

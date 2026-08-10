@@ -1,5 +1,5 @@
 import React from 'react'
-import { Star,Heart } from "lucide-react";
+import { Heart, Star } from 'lucide-react'
 
 function ProductCard({ product }) {
   if (!product) return null
