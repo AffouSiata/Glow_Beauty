@@ -2,6 +2,8 @@ import serum from "../assets/serum.jpeg";
 import lipstick from "../assets/lipstick.jpeg";
 import shampoo from "../assets/shampoo.jpeg";
 import perfume from "../assets/parfum.jpeg";
+import makeup1 from "../assets/makeup1.jpeg";
+import makeup2 from "../assets/makeup2.jpeg";
 
 const products = [
   {
@@ -78,20 +80,20 @@ const products = [
   },
   {
     id: 9,
-    name: "Rose Perfume",
-    category: "Fragrance",
-    price: 75000,
+    name: "Plushlash Mascara",
+    category: "Makeup",
+    price: 12000,
     rating: 10,
-    image: perfume,
+    image: makeup2,
     isBestSeller: true, 
   },
   {
     id: 10,
-    name: "Rose Perfume",
-    category: "Fragrance",
+    name: "Blot Powder Foundation",
+    category: "Makeup",
     price: 85000,
     rating: 11,
-    image: perfume,
+    image: makeup1,
     isBestSeller: true, 
   }
 ];
