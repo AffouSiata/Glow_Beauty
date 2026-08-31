@@ -1,6 +1,6 @@
 import React from 'react'
 import TestimonialCard from './TestimonialCard'
-import testimonials from '../../data/testimonials'
+import testimonials from '../../../data/testimonials'
 
 
 function Testimonials() {

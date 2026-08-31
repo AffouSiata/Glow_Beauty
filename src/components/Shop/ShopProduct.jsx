@@ -1,6 +1,6 @@
 import React from 'react'
 import products from "../../data/Product";
-import ProductCard from "../Home/ProductCard";
+import ProductCard from "../Home/products/ProductCard";
 
 function ShopProduct({ category }) {
     const filteredProducts = products.filter((product) => {

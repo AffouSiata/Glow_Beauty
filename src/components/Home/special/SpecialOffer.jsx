@@ -1,5 +1,5 @@
 import React from 'react'
-import img2 from '../../assets/44.png'
+import img2 from '../../../assets/44.png'
 
 function SpecialOffer() {
   return (

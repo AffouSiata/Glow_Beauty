@@ -1,12 +1,13 @@
 import React from 'react'
-import { X } from 'lucide-react'
+import { X, Trash2 } from 'lucide-react'
 import { useContext } from 'react'
 import CartContext from '../../context/CartContext'
-import { Trash2 } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
 
 function CartDrawer({ isOpen, setIsOpen }) {
-  const { cart, setCart } = useContext(CartContext)
 
+    const navigate = useNavigate()
+    const { cart, setCart } = useContext(CartContext)
     const handleIncrease = (id) => {
         const updatedCart = cart.map(item => {
             if (item.id === id) {
@@ -80,7 +81,7 @@ function CartDrawer({ isOpen, setIsOpen }) {
                     <p className='text-lg font-bold text-[#3b0133]'>Total:</p>
                     <p className='text-xl font-bold text-[#fb85ea]'>{total} FCFA</p>
                 </div>
-                <button className='w-full bg-[#3b0133] border-2 text-white hover:bg-white hover:text-[#3b0133] hover:font-bold  border-[#3b013378] py-2 px-4 rounded-lg'>Checkout</button>
+                <button onClick={() => navigate('/checkout')} className='w-full bg-[#3b0133] border-2 text-white hover:bg-white hover:text-[#3b0133] hover:font-bold  border-[#3b013378] py-2 px-4 rounded-lg'>Checkout</button>
             </div>
         </div>
   </>

@@ -1,6 +1,6 @@
 import React from 'react'
-import ProductCard from './ProductCard'
-import products from '../../data/Product'
+import ProductCard from "./ProductCard";
+import products from '../../../data/Product'
 
 function BestSellers() {
   const bestSellers = products.filter((product) => product.isBestSeller)

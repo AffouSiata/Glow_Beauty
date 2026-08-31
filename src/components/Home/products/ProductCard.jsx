@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Heart, Star } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
-import CartContext from '../../context/CartContext'
+import CartContext from '../../../context/CartContext'
 
 function ProductCard({ product }) {
   const { cart, setCart } = useContext(CartContext)
@@ -31,14 +31,6 @@ function ProductCard({ product }) {
         setCart([...cart, newProduct])
     }
   }
-  https://www.tiktok.com/@apprendreanglais67/video/7673167992108240161
-
-
-
-
-
-
-
 
   const navigate = useNavigate()
   if (!product) return null

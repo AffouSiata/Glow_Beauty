@@ -4,7 +4,7 @@ import AboutHero from '../components/About/AboutHero'
 import AboutSection from '../components/About/AboutSection'
 import MissionSection from '../components/About/MissionSection'
 import WhyChooseUs from '../components/Home/Whychoose'
-import Testimonials from '../components/Home/Testimonials'
+import Testimonials from '../components/Home/temoin/Testimonials'
 import Footer from '../components/Footer'
 function About() {
   return (
